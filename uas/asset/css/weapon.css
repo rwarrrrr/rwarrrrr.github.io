@@ -1,3 +1,4 @@
+/* riksa paradila - 10123901 - IF-12 */
 * {
   margin: 0;
   padding: 0;
@@ -6,25 +7,25 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --light-t1: #CCC4ED;
-  --border-color-2: #6B5536;
+  --light-t1: #ccc4ed;
+  --border-color-2: #6b5536;
   --text-color-1: rgba(187, 177, 231, 0.62);
   --text-color-2: rgba(154, 119, 35, 1);
   --text-color-3: rgba(3, 140, 54, 1);
-  --text-color-4: #A395DF;
-  --text-color-5: #9F91DE;
-  --text-color-6: #826DFF;
-  --text-color-7: #9A7723;
-  --text-color-8: #EAA742;
-  --text-color-9: #E9A742;
-  --text-color-10: #C4893B;
-  --text-color-11: #FFE0B7;
-  --text-color-12: #DFA650;
-  --text-color-13: #FFCA79;
-  --text-color-14: #038C36;
-  --text-color-15: #04BC49;
-  --text-color-16: #01AB3F;
-  --text-color-17: #D4FFE4;
+  --text-color-4: #a395df;
+  --text-color-5: #9f91de;
+  --text-color-6: #826dff;
+  --text-color-7: #9a7723;
+  --text-color-8: #eaa742;
+  --text-color-9: #e9a742;
+  --text-color-10: #c4893b;
+  --text-color-11: #ffe0b7;
+  --text-color-12: #dfa650;
+  --text-color-13: #ffca79;
+  --text-color-14: #038c36;
+  --text-color-15: #04bc49;
+  --text-color-16: #01ab3f;
+  --text-color-17: #d4ffe4;
   --text-color-18: #77d3e3;
   --text-color-19: #0466bc;
   --text-color-20: #77d3e3;
@@ -74,7 +75,9 @@ a:hover {
   color: var(--text-color-22);
 }
 
-a, a:active, a:focus {
+a,
+a:active,
+a:focus {
   outline: none;
   text-decoration: none;
 }
@@ -123,14 +126,16 @@ a, a:active, a:focus {
   font-style: normal;
   color: var(--text-color-22);
   display: inline-block;
-  transition: 0.3s;        
+  transition: 0.3s;
 }
 
-.header-menu ul li a:hover, .header-menu ul li.active a {
+.header-menu ul li a:hover,
+.header-menu ul li.active a {
   color: var(--text-color-23);
 }
 
-.header-menu ul li a:hover:after, .header-menu ul li.active a:after {
+.header-menu ul li a:hover:after,
+.header-menu ul li.active a:after {
   transform: translate(-50%, 0);
   opacity: 1;
 }
@@ -144,8 +149,8 @@ a, a:active, a:focus {
   background: url(../img/menu-hover-icon-2.svg) center center / cover;
   width: 70px;
   height: 70px;
-  transform: translate(-50%, 30px);        
-  transition: 0.3s;        
+  transform: translate(-50%, 30px);
+  transition: 0.3s;
   opacity: 0;
 }
 
@@ -158,7 +163,6 @@ a, a:active, a:focus {
   height: 8px;
 }
 /* header */
-
 
 .js-transitions-disabled * {
   transition: none !important;
@@ -315,7 +319,7 @@ a, a:active, a:focus {
   top: 50%;
   margin-top: -3vw;
   text-align: center;
-  font-family: 'Insomnia';
+  font-family: "Insomnia";
   font-size: 5vw;
   height: 10vw;
   opacity: 1;
@@ -329,7 +333,7 @@ a, a:active, a:focus {
   font-weight: 300;
   letter-spacing: 0.2em;
   opacity: 0.9;
-  font-family: 'Valorant';
+  font-family: "Valorant";
 }
 .content__right {
   display: flex;
@@ -365,7 +369,6 @@ a, a:active, a:focus {
   color: #fff;
 }
 
-
 [data-type="classic"] .content__left {
   background-image: url("../img/classic.png");
   background-position: center;
@@ -397,7 +400,6 @@ a, a:active, a:focus {
   background-size: 150%;
 }
 
-
 [data-type="stinger"] .content__left {
   background-image: url("../img/stinger.png");
   background-position: 50% 40%;
@@ -411,7 +413,6 @@ a, a:active, a:focus {
   background-size: 100%;
 }
 
-
 [data-type="bucky"] .content__left {
   background-image: url("../img/bucky.png");
   background-position: 50% 30%;
@@ -424,7 +425,6 @@ a, a:active, a:focus {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 
 [data-type="bulldog"] .content__left {
   background-image: url("../img/bulldog.png");
@@ -451,7 +451,6 @@ a, a:active, a:focus {
   background-size: 100%;
 }
 
-
 [data-type="marshal"] .content__left {
   background-image: url("../img/marshal.png");
   background-position: 50% 30%;
@@ -471,7 +470,6 @@ a, a:active, a:focus {
   background-size: 100%;
 }
 
-
 [data-type="ares"] .content__left {
   background-image: url("../img/ares.png");
   background-position: center;
@@ -484,7 +482,6 @@ a, a:active, a:focus {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 
 [data-type="pisau"] .content__left {
   background-image: url("../img/tactical-knife.png");

@@ -1,3 +1,4 @@
+// riksa paradila - 10123901 - IF-12
 let activeIndex = 0;
 let limit = 0;
 let disabled = false;

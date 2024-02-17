@@ -1,455 +1,663 @@
+/* riksa paradila - 10123901 - IF-12 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  :root {
-      --white: #ffffff;
-      --black: #000000;
-      --light-t1: #CCC4ED;
-      --border-color-2: #6B5536;
-      --text-color-1: rgba(187, 177, 231, 0.62);
-      --text-color-2: rgba(154, 119, 35, 1);
-      --text-color-3: rgba(3, 140, 54, 1);
-      --text-color-4: #A395DF;
-      --text-color-5: #9F91DE;
-      --text-color-6: #826DFF;
-      --text-color-7: #9A7723;
-      --text-color-8: #EAA742;
-      --text-color-9: #E9A742;
-      --text-color-10: #C4893B;
-      --text-color-11: #FFE0B7;
-      --text-color-12: #DFA650;
-      --text-color-13: #FFCA79;
-      --text-color-14: #038C36;
-      --text-color-15: #04BC49;
-      --text-color-16: #01AB3F;
-      --text-color-17: #D4FFE4;
-      --text-color-18: #77d3e3;
-      --text-color-19: #0466bc;
-      --text-color-20: #77d3e3;
-      --text-color-21: #e3a077;
-      --text-color-22: #bc4a04;
-      --text-color-23: #fc6736;
-      --text-color-24: #c24c20;
-      --text-color-25: #ad5221;
-      --text-color-26: #3cdfc2;
-      --text-color-27: #596cc2;
-      --text-color-28: #b9b9b9;
-      --text-color-29: #fa97f7;
-      --text-color-30: #eedd24;
-      --text-color-31: #5bdca9;
-      --text-color-32: #668feb;
-      --text-color-33: #df28a3;
-      --text-color-34: #c4f9ff;
-      --text-color-35: #faa71e;
-      --text-color-36: #648dff;
-      --text-color-37: #365c77;
-      --text-color-38: #558cab;
-      --text-color-39: #89903a;
-      --text-color-40: #d5ccca;
-      --text-color-41: #6851f8;
-      --text-color-42: #bc7204;
-      --text-color-43: #a42c00;
-  }
-  
-  body {
-    font-family: 'VALORANT';
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-    font-style: normal;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    background-color: var(--black);
-  }
-  
-  a {
-      text-decoration: none;
-      outline: none;
-      color: var(--text-color-22);
-      cursor: pointer;
-  }
-  
-  a:hover {
-      color: var(--text-color-22);
-  }
-  
-  a, a:active, a:focus {
-      outline: none;
-      text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-   #particles-js{ position:absolute; width: 100%; height: 100%;opacity: 0.35; background-color: #ffffff; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-  
-  /* header */
-  .header-section-main {
-      position: fixed;
-      margin-top: -45%;
-      padding: 40px;
-      width: 100%;
-      z-index: 99;
-  }
-  
-  .header-section-inner {
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  .header-logo {
-      flex-shrink: 0;
-  }
-  
-  .header-logo img {
-      width: 60px;
-      height: 60px;
-      filter: hue-rotate(100deg);
-  }
-  
-  .header-menu {
-      width: 80%;
-  }
-  
-  .header-menu ul {
-      display: flex;
-      gap: 90px;
-      justify-content: end;
-      list-style: none;
-  }
-  
-  .header-menu ul li a {
-      position: relative;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: 400;
-      text-transform: uppercase;
-      font-style: normal;
-      color: var(--text-color-23);
-      display: inline-block;
-      transition: 0.3s;        
-  }
-  
-  .header-menu ul li a:hover, .header-menu ul li.active a {
-      color: var(--text-color-23);
-  }
-  
-  .header-menu ul li a:hover:after, .header-menu ul li.active a:after {
-      transform: translate(-50%, 0);
-      opacity: 1;
-  }
-  
-  .header-menu ul li a:after {
-      content: "";
-      position: absolute;
-      bottom: -50px;
-      left: 50%;
-      display: block;
-      background: url(../img/menu-hover-icon-2.svg) center center / cover;
-      width: 70px;
-      height: 70px;
-      transform: translate(-50%, 30px);        
-      transition: 0.3s;        
-      opacity: 0;
-  }
-  
-  .header-right-icon {
-      flex-shrink: 0;
-  }
-  
-  .header-right-icon img {
-      width: 21px;
-      height: 8px;
-  }
-  /* header */  
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --light-t1: #ccc4ed;
+  --border-color-2: #6b5536;
+  --text-color-1: rgba(187, 177, 231, 0.62);
+  --text-color-2: rgba(154, 119, 35, 1);
+  --text-color-3: rgba(3, 140, 54, 1);
+  --text-color-4: #a395df;
+  --text-color-5: #9f91de;
+  --text-color-6: #826dff;
+  --text-color-7: #9a7723;
+  --text-color-8: #eaa742;
+  --text-color-9: #e9a742;
+  --text-color-10: #c4893b;
+  --text-color-11: #ffe0b7;
+  --text-color-12: #dfa650;
+  --text-color-13: #ffca79;
+  --text-color-14: #038c36;
+  --text-color-15: #04bc49;
+  --text-color-16: #01ab3f;
+  --text-color-17: #d4ffe4;
+  --text-color-18: #77d3e3;
+  --text-color-19: #0466bc;
+  --text-color-20: #77d3e3;
+  --text-color-21: #e3a077;
+  --text-color-22: #bc4a04;
+  --text-color-23: #fc6736;
+  --text-color-24: #c24c20;
+  --text-color-25: #ad5221;
+  --text-color-26: #3cdfc2;
+  --text-color-27: #596cc2;
+  --text-color-28: #b9b9b9;
+  --text-color-29: #fa97f7;
+  --text-color-30: #eedd24;
+  --text-color-31: #5bdca9;
+  --text-color-32: #668feb;
+  --text-color-33: #df28a3;
+  --text-color-34: #c4f9ff;
+  --text-color-35: #faa71e;
+  --text-color-36: #648dff;
+  --text-color-37: #365c77;
+  --text-color-38: #558cab;
+  --text-color-39: #89903a;
+  --text-color-40: #d5ccca;
+  --text-color-41: #6851f8;
+  --text-color-42: #bc7204;
+  --text-color-43: #a42c00;
+}
 
-  .container{
-    width: 100%;
-    height: 100vh;
-  }
+body {
+  font-family: "VALORANT";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--black);
+}
 
-  .paralax {
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0vh;
-    height: 100vh;
-    background-size-Y: 150%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url("../img/ilu_bg.png");
-    position: relative;
-    opacity: 0.5;
-  }
+a {
+  text-decoration: none;
+  outline: none;
+  color: var(--text-color-22);
+  cursor: pointer;
+}
 
-  
-  .man {
-    position: absolute;
-    left: 20%;
-    height: 60%;
-    bottom: 0px;
-    z-index: 4;
-  }
-  
-  .bg1 {
-    position: absolute;
-    top: 23%;
-    width: 100%;
-    z-index: 2;
-  }
-  
-  .bg2 {
-    width: 100%;
-    position: absolute;
-    bottom: 50px;
-    z-index: 3;
-  }
-  
-  .bg3 {
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    z-index: 5;
-  }
-  
-  .valo {
-    color: white;
-    text-decoration: none;
-    font-family: 'Valorant';
-    font-size: 5rem;
-    padding: 1em;
-    display: table;
-    width: 200px;
-    text-align: center;
-    left: 40%;
-    position: absolute;
-    top: 20%;
-    margin-left: -100px;
-    z-index: 5;
-    letter-spacing: .5em;
-    text-shadow: 0px 10px 12px black;
-  }
+a:hover {
+  color: var(--text-color-22);
+}
 
-  .content-2{
-    background-color: #ece8e1;
-    width: 100%;
-    height: 100vh;
-    font-family: arial,georgia,sans-serif;
-  }
+a,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
 
-  .content-2 .left .map{
-    width: 50%;
-    margin-left: 30%;
-    margin-top: 30%;
-  }
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  background-color: #ffffff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
-  .content-2 h1{
-    font-weight: bold;
-    font-size: 5rem;
-  }
-  .content-2 h3{
-    font-size: 1.3rem;
-  }
-  .content-2 p{
-    font-size: 1rem;
-  }
+/* header */
+.header-section-main {
+  position: fixed;
+  margin-top: -45%;
+  padding: 40px;
+  width: 100%;
+  z-index: 99;
+}
 
-  .content-2 .left{
-    float: left;
-    width: 50%;
-  }
+.header-section-inner {
+  display: flex;
+  justify-content: space-between;
+}
 
-  #button-valo {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-  }
-  #button-valo a {
-    width: 100%;
-    max-width: 240px;
-    height: 54px;
-    padding: 8px;
-    font-size: 0.8rem;
-    font-weight: 900;
-    color: #ff4655;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
-    position: relative;
-    margin: 10px 0;
-  }
-  #button-valo a.white:hover > p {
-    color: #ece8e1;
-  }
-  #button-valo a.white > p {
-    background: #ece8e1;
-    color: #0f1923;
-  }
-  #button-valo a.white > p span.base {
-    border: 1px solid transparent;
-  }
-  #button-valo a.transparent:hover > p {
-    color: #ece8e1;
-  }
-  #button-valo a.transparent:hover > p span.text {
-    box-shadow: 0 0 0 1px #ece8e1;
-  }
-  #button-valo a.transparent > p {
-    background: #0f1923;
-    color: #ece8e1;
-  }
-  #button-valo a.transparent > p span.base {
-    border: 1px solid #ece8e1;
-  }
-  #button-valo a:after, #button-valo a:before {
-    content: "";
-    width: 1px;
-    position: absolute;
-    height: 8px;
-    background: #0f1923;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  #button-valo a:before {
-    right: 0;
-    left: initial;
-  }
-  #button-valo a p {
-    margin: 0;
-    height: 54px;
-    line-height: 54px;
-    box-sizing: border-box;
-    z-index: 1;
-    left: 0;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  #button-valo a p span.base {
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    border: 1px solid #ff4655;
-  }
-  #button-valo a p span.base:before {
-    content: "";
-    width: 2px;
-    height: 2px;
-    left: -1px;
-    top: -1px;
-    background: #0f1923;
-    position: absolute;
-    transition: 0.3s ease-out all;
-  }
-  #button-valo a p span.bg {
-    left: -5%;
-    position: absolute;
-    background: #ff4655;
-    width: 0;
-    height: 100%;
-    z-index: 3;
-    transition: 0.3s ease-out all;
-    transform: skewX(-10deg);
-  }
-  #button-valo a p span.text {
-    z-index: 4;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-  #button-valo a p span.text:after {
-    content: "";
-    width: 4px;
-    height: 4px;
-    right: 0;
-    bottom: 0;
-    background: #0f1923;
-    position: absolute;
-    transition: 0.3s ease-out all;
-    z-index: 5;
-  }
-  #button-valo a:hover {
-    color: #ece8e1;
-  }
-  #button-valo a:hover span.bg {
-    width: 110%;
-  }
-  #button-valo a:hover span.text:after {
-    background: #ece8e1;
-  }
+.header-logo {
+  flex-shrink: 0;
+}
 
-  .content-2 .right{
-    float: left;
-    width: 50%;
-    overflow: hidden;
-  }
-  
+.header-logo img {
+  width: 60px;
+  height: 60px;
+  filter: hue-rotate(100deg);
+}
 
-  .content-2 .right img{
-    margin-top: 6%;
-  }
-  
-  .content-ark{
-    width: 100%;
-    height: 100vh;
-    background-image: url('../img/bg-ark.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: var(--white);
-    overflow: hidden;
-  }
+.header-menu {
+  width: 80%;
+}
 
-  .content-ark .sub{
-    width: 100%;
-    margin-top: 20%;
-  }
-  .content-ark .sub h1{
-    font-size: 2rem;
-    text-align: center;
-  }
-  .content-ark .sub #button-valo{
-    margin-left: 44%;
-  }
+.header-menu ul {
+  display: flex;
+  gap: 90px;
+  justify-content: end;
+  list-style: none;
+}
 
-  footer{
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-  }
+.header-menu ul li a {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--text-color-23);
+  display: inline-block;
+  transition: 0.3s;
+}
 
-  footer a{
-    color: var(--white);
-  }
+.header-menu ul li a:hover,
+.header-menu ul li.active a {
+  color: var(--text-color-23);
+}
 
-  footer a:hover{
-    color: var(--text-color-23);
-  }
+.header-menu ul li a:hover:after,
+.header-menu ul li.active a:after {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
 
-  .loading{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-color: var(--black);
-    color: white;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    z-index: 1001;
-    opacity: 0.9;
-    display: block;
-    transition: 500ms ease;
-  }
+.header-menu ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  display: block;
+  background: url(../img/menu-hover-icon-2.svg) center center / cover;
+  width: 70px;
+  height: 70px;
+  transform: translate(-50%, 30px);
+  transition: 0.3s;
+  opacity: 0;
+}
 
-  .loading #text{
-    margin-top: 20%;
+.header-right-icon {
+  flex-shrink: 0;
+}
+
+.header-right-icon img {
+  width: 21px;
+  height: 8px;
+}
+/* header */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.paralax {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0vh;
+  height: 100vh;
+  background-size-y: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/ilu_bg.png");
+  position: relative;
+  opacity: 0.5;
+}
+
+.man {
+  position: absolute;
+  left: 20%;
+  height: 60%;
+  bottom: 0px;
+  z-index: 4;
+}
+
+.bg1 {
+  position: absolute;
+  top: 23%;
+  width: 100%;
+  z-index: 2;
+}
+
+.bg2 {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  z-index: 3;
+}
+
+.bg3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 5;
+}
+
+.valo {
+  color: white;
+  text-decoration: none;
+  font-family: "Valorant";
+  font-size: 5rem;
+  padding: 1em;
+  display: table;
+  width: 200px;
+  text-align: center;
+  left: 40%;
+  position: absolute;
+  top: 20%;
+  margin-left: -100px;
+  z-index: 5;
+  letter-spacing: 0.5em;
+  text-shadow: 0px 10px 12px black;
+}
+
+.content-2 {
+  background-color: #ece8e1;
+  width: 100%;
+  height: 100vh;
+  font-family: arial, georgia, sans-serif;
+}
+
+.content-2 .left .map {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 30%;
+}
+
+.content-2 h1 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+.content-2 h3 {
+  font-size: 1.3rem;
+}
+.content-2 p {
+  font-size: 1rem;
+}
+
+.content-2 .left {
+  float: left;
+  width: 50%;
+}
+
+#button-valo {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+#button-valo a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #ff4655;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+#button-valo a.white:hover > p {
+  color: #ece8e1;
+}
+#button-valo a.white > p {
+  background: #ece8e1;
+  color: #0f1923;
+}
+#button-valo a.white > p span.base {
+  border: 1px solid transparent;
+}
+#button-valo a.transparent:hover > p {
+  color: #ece8e1;
+}
+#button-valo a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px #ece8e1;
+}
+#button-valo a.transparent > p {
+  background: #0f1923;
+  color: #ece8e1;
+}
+#button-valo a.transparent > p span.base {
+  border: 1px solid #ece8e1;
+}
+#button-valo a:after,
+#button-valo a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#button-valo a:before {
+  right: 0;
+  left: initial;
+}
+#button-valo a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#button-valo a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #ff4655;
+}
+#button-valo a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+#button-valo a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #ff4655;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+#button-valo a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#button-valo a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+#button-valo a:hover {
+  color: #ece8e1;
+}
+#button-valo a:hover span.bg {
+  width: 110%;
+}
+#button-valo a:hover span.text:after {
+  background: #ece8e1;
+}
+
+/*  */
+
+#button-valo-reverse {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+#button-valo-reverse a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+#button-valo-reverse a.white:hover > p {
+  color: var(--black);
+}
+#button-valo-reverse a.white > p {
+  background: #ece8e1;
+  color: #0f1923;
+}
+#button-valo-reverse a.white > p span.base {
+  border: 1px solid transparent;
+}
+#button-valo-reverse a.transparent:hover > p {
+  color: #ece8e1;
+}
+#button-valo-reverse a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px #ece8e1;
+}
+#button-valo-reverse a.transparent > p {
+  background: #0f1923;
+  color: #ece8e1;
+}
+#button-valo-reverse a.transparent > p span.base {
+  border: 1px solid #ece8e1;
+}
+#button-valo-reverse a:after,
+#button-valo-reverse a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#button-valo-reverse a:before {
+  right: 0;
+  left: initial;
+}
+#button-valo-reverse a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#button-valo-reverse a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid var(--black);
+}
+#button-valo-reverse a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+#button-valo-reverse a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: var(--black);
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+#button-valo-reverse a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#button-valo-reverse a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+#button-valo-reverse a:hover {
+  color: #ff4655;
+}
+#button-valo-reverse a:hover span.bg {
+  width: 110%;
+}
+#button-valo-reverse a:hover span.text:after {
+  background: #ff4655;
+}
+
+.content-2 .right {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+
+.content-2 .right img {
+  margin-top: 6%;
+}
+
+.content-ark {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/bg-ark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.content-ark .sub {
+  width: 100%;
+  margin-top: 20%;
+}
+.content-ark .sub h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.content-ark .sub #button-valo {
+  margin-left: 44%;
+}
+
+.content-naon-welah {
+  background-color: #ff4655;
+  width: 100%;
+  height: 100vh;
+  font-family: arial, georgia, sans-serif;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.content-naon-welah .left {
+  width: 60%;
+  float: left;
+}
+.content-naon-welah .left img {
+  margin-left: 8%;
+  margin-top: 15%;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+.content-naon-welah .right {
+  width: 40%;
+  float: left;
+}
+.content-naon-welah .right #text {
+  margin-top: 40%;
+  margin-left: 10%;
+  width: 80%;
+  border-left: 1rem dotted white;
+  padding: 50px;
+  /* box-shadow: 0 5px 8px white; */
+}
+
+.content-naon-welah .right h1 {
+  font-size: 5rem;
+}
+.content-naon-welah .right p {
+  font-size: 1rem;
+}
+
+.content-vid {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.content-text {
+  color: #ffffff;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  opacity: 0.5;
+  z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .content-vid iframe {
+    height: 56.25vw;
   }
+}
+@media (max-aspect-ratio: 16/9) {
+  .content-vid iframe {
+    width: 177.78vh;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--text-color-23);
+}
+
+.loading {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: var(--black);
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 1001;
+  opacity: 0.9;
+  display: block;
+  transition: 500ms ease;
+}
+
+.loading #text {
+  margin-top: 20%;
+}

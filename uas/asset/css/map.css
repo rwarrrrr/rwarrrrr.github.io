@@ -1,3 +1,4 @@
+/* riksa paradila - 10123901 - IF-12 */
 * {
   margin: 0;
   padding: 0;
@@ -5,57 +6,57 @@
 }
 
 :root {
-    --white: #ffffff;
-    --black: #000000;
-    --light-t1: #CCC4ED;
-    --border-color-2: #6B5536;
-    --text-color-1: rgba(187, 177, 231, 0.62);
-    --text-color-2: rgba(154, 119, 35, 1);
-    --text-color-3: rgba(3, 140, 54, 1);
-    --text-color-4: #A395DF;
-    --text-color-5: #9F91DE;
-    --text-color-6: #826DFF;
-    --text-color-7: #9A7723;
-    --text-color-8: #EAA742;
-    --text-color-9: #E9A742;
-    --text-color-10: #C4893B;
-    --text-color-11: #FFE0B7;
-    --text-color-12: #DFA650;
-    --text-color-13: #FFCA79;
-    --text-color-14: #038C36;
-    --text-color-15: #04BC49;
-    --text-color-16: #01AB3F;
-    --text-color-17: #D4FFE4;
-    --text-color-18: #77d3e3;
-    --text-color-19: #0466bc;
-    --text-color-20: #77d3e3;
-    --text-color-21: #e3a077;
-    --text-color-22: #bc4a04;
-    --text-color-23: #fc6736;
-    --text-color-24: #c24c20;
-    --text-color-25: #ad5221;
-    --text-color-26: #3cdfc2;
-    --text-color-27: #596cc2;
-    --text-color-28: #b9b9b9;
-    --text-color-29: #fa97f7;
-    --text-color-30: #eedd24;
-    --text-color-31: #5bdca9;
-    --text-color-32: #668feb;
-    --text-color-33: #df28a3;
-    --text-color-34: #c4f9ff;
-    --text-color-35: #faa71e;
-    --text-color-36: #648dff;
-    --text-color-37: #365c77;
-    --text-color-38: #558cab;
-    --text-color-39: #89903a;
-    --text-color-40: #d5ccca;
-    --text-color-41: #6851f8;
-    --text-color-42: #bc7204;
-    --text-color-43: #a42c00;
+  --white: #ffffff;
+  --black: #000000;
+  --light-t1: #ccc4ed;
+  --border-color-2: #6b5536;
+  --text-color-1: rgba(187, 177, 231, 0.62);
+  --text-color-2: rgba(154, 119, 35, 1);
+  --text-color-3: rgba(3, 140, 54, 1);
+  --text-color-4: #a395df;
+  --text-color-5: #9f91de;
+  --text-color-6: #826dff;
+  --text-color-7: #9a7723;
+  --text-color-8: #eaa742;
+  --text-color-9: #e9a742;
+  --text-color-10: #c4893b;
+  --text-color-11: #ffe0b7;
+  --text-color-12: #dfa650;
+  --text-color-13: #ffca79;
+  --text-color-14: #038c36;
+  --text-color-15: #04bc49;
+  --text-color-16: #01ab3f;
+  --text-color-17: #d4ffe4;
+  --text-color-18: #77d3e3;
+  --text-color-19: #0466bc;
+  --text-color-20: #77d3e3;
+  --text-color-21: #e3a077;
+  --text-color-22: #bc4a04;
+  --text-color-23: #fc6736;
+  --text-color-24: #c24c20;
+  --text-color-25: #ad5221;
+  --text-color-26: #3cdfc2;
+  --text-color-27: #596cc2;
+  --text-color-28: #b9b9b9;
+  --text-color-29: #fa97f7;
+  --text-color-30: #eedd24;
+  --text-color-31: #5bdca9;
+  --text-color-32: #668feb;
+  --text-color-33: #df28a3;
+  --text-color-34: #c4f9ff;
+  --text-color-35: #faa71e;
+  --text-color-36: #648dff;
+  --text-color-37: #365c77;
+  --text-color-38: #558cab;
+  --text-color-39: #89903a;
+  --text-color-40: #d5ccca;
+  --text-color-41: #6851f8;
+  --text-color-42: #bc7204;
+  --text-color-43: #a42c00;
 }
 
 body {
-  font-family: 'VALORANT';
+  font-family: "VALORANT";
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -67,98 +68,102 @@ body {
 }
 
 a {
-    text-decoration: none;
-    outline: none;
-    color: var(--text-color-22);
-    cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: var(--text-color-22);
+  cursor: pointer;
 }
 
 a:hover {
-    color: var(--text-color-22);
+  color: var(--text-color-22);
 }
 
-a, a:active, a:focus {
-    outline: none;
-    text-decoration: none;
+a,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
 }
 
 /* header */
 .header-section-main {
-    position: fixed;
-    margin-top: -45%;
-    padding: 40px;
-    width: 100%;
-    z-index: 99;
+  position: fixed;
+  margin-top: -45%;
+  padding: 40px;
+  width: 100%;
+  z-index: 99;
 }
 
 .header-section-inner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-logo {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .header-logo img {
-    width: 60px;
-    height: 60px;
-    filter: hue-rotate(100deg);
+  width: 60px;
+  height: 60px;
+  filter: hue-rotate(100deg);
 }
 
 .header-menu {
-    width: 80%;
+  width: 80%;
 }
 
 .header-menu ul {
-    display: flex;
-    gap: 90px;
-    justify-content: end;
-    list-style: none;
+  display: flex;
+  gap: 90px;
+  justify-content: end;
+  list-style: none;
 }
 
 .header-menu ul li a {
-    position: relative;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-style: normal;
-    color: var(--text-color-22);
-    display: inline-block;
-    transition: 0.3s;        
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--text-color-22);
+  display: inline-block;
+  transition: 0.3s;
 }
 
-.header-menu ul li a:hover, .header-menu ul li.active a {
-    color: var(--text-color-23);
+.header-menu ul li a:hover,
+.header-menu ul li.active a {
+  color: var(--text-color-23);
 }
 
-.header-menu ul li a:hover:after, .header-menu ul li.active a:after {
-    transform: translate(-50%, 0);
-    opacity: 1;
+.header-menu ul li a:hover:after,
+.header-menu ul li.active a:after {
+  transform: translate(-50%, 0);
+  opacity: 1;
 }
 
 .header-menu ul li a:after {
-    content: "";
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    display: block;
-    background: url(../img/menu-hover-icon-2.svg) center center / cover;
-    width: 70px;
-    height: 70px;
-    transform: translate(-50%, 30px);        
-    transition: 0.3s;        
-    opacity: 0;
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  display: block;
+  background: url(../img/menu-hover-icon-2.svg) center center / cover;
+  width: 70px;
+  height: 70px;
+  transform: translate(-50%, 30px);
+  transition: 0.3s;
+  opacity: 0;
 }
 
 .header-right-icon {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .header-right-icon img {
-    width: 21px;
-    height: 8px;
+  width: 21px;
+  height: 8px;
 }
 /* header */
 
@@ -239,7 +244,7 @@ section {
 
   & .title {
     text-transform: uppercase;
-    font-family: 'VALORANT';
+    font-family: "VALORANT";
     font-size: 5rem;
   }
 

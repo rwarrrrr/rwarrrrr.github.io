@@ -1,189 +1,202 @@
+/* riksa paradila - 10123901 - IF-12 */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --white: #ffffff;
-    --black: #000000;
-    --light-t1: #CCC4ED;
-    --border-color-2: #6B5536;
-    --text-color-1: rgba(187, 177, 231, 0.62);
-    --text-color-2: rgba(154, 119, 35, 1);
-    --text-color-3: rgba(3, 140, 54, 1);
-    --text-color-4: #A395DF;
-    --text-color-5: #9F91DE;
-    --text-color-6: #826DFF;
-    --text-color-7: #9A7723;
-    --text-color-8: #EAA742;
-    --text-color-9: #E9A742;
-    --text-color-10: #C4893B;
-    --text-color-11: #FFE0B7;
-    --text-color-12: #DFA650;
-    --text-color-13: #FFCA79;
-    --text-color-14: #038C36;
-    --text-color-15: #04BC49;
-    --text-color-16: #01AB3F;
-    --text-color-17: #D4FFE4;
-    --text-color-18: #77d3e3;
-    --text-color-19: #0466bc;
-    --text-color-20: #77d3e3;
-    --text-color-21: #e3a077;
-    --text-color-22: #bc4a04;
-    --text-color-23: #fc6736;
-    --text-color-24: #c24c20;
-    --text-color-25: #ad5221;
-    --text-color-26: #3cdfc2;
-    --text-color-27: #596cc2;
-    --text-color-28: #b9b9b9;
-    --text-color-29: #fa97f7;
-    --text-color-30: #eedd24;
-    --text-color-31: #5bdca9;
-    --text-color-32: #668feb;
-    --text-color-33: #df28a3;
-    --text-color-34: #c4f9ff;
-    --text-color-35: #faa71e;
-    --text-color-36: #648dff;
-    --text-color-37: #365c77;
-    --text-color-38: #558cab;
-    --text-color-39: #89903a;
-    --text-color-40: #d5ccca;
-    --text-color-41: #6851f8;
-    --text-color-42: #bc7204;
-    --text-color-43: #a42c00;
+  --white: #ffffff;
+  --black: #000000;
+  --light-t1: #ccc4ed;
+  --border-color-2: #6b5536;
+  --text-color-1: rgba(187, 177, 231, 0.62);
+  --text-color-2: rgba(154, 119, 35, 1);
+  --text-color-3: rgba(3, 140, 54, 1);
+  --text-color-4: #a395df;
+  --text-color-5: #9f91de;
+  --text-color-6: #826dff;
+  --text-color-7: #9a7723;
+  --text-color-8: #eaa742;
+  --text-color-9: #e9a742;
+  --text-color-10: #c4893b;
+  --text-color-11: #ffe0b7;
+  --text-color-12: #dfa650;
+  --text-color-13: #ffca79;
+  --text-color-14: #038c36;
+  --text-color-15: #04bc49;
+  --text-color-16: #01ab3f;
+  --text-color-17: #d4ffe4;
+  --text-color-18: #77d3e3;
+  --text-color-19: #0466bc;
+  --text-color-20: #77d3e3;
+  --text-color-21: #e3a077;
+  --text-color-22: #bc4a04;
+  --text-color-23: #fc6736;
+  --text-color-24: #c24c20;
+  --text-color-25: #ad5221;
+  --text-color-26: #3cdfc2;
+  --text-color-27: #596cc2;
+  --text-color-28: #b9b9b9;
+  --text-color-29: #fa97f7;
+  --text-color-30: #eedd24;
+  --text-color-31: #5bdca9;
+  --text-color-32: #668feb;
+  --text-color-33: #df28a3;
+  --text-color-34: #c4f9ff;
+  --text-color-35: #faa71e;
+  --text-color-36: #648dff;
+  --text-color-37: #365c77;
+  --text-color-38: #558cab;
+  --text-color-39: #89903a;
+  --text-color-40: #d5ccca;
+  --text-color-41: #6851f8;
+  --text-color-42: #bc7204;
+  --text-color-43: #a42c00;
 }
 
 body {
-    font-family: 'VALORANT';
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-    font-style: normal;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: auto;
-    max-width: 2560px;
-    background: var(--white);
-    color: var(--text-color-1);
+  font-family: "VALORANT";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: auto;
+  max-width: 2560px;
+  background: var(--white);
+  color: var(--text-color-1);
 }
 
 a {
-    text-decoration: none;
-    outline: none;
-    color: var(--text-color-1);
-    cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: var(--text-color-1);
+  cursor: pointer;
 }
 
 a:hover {
-    color: var(--text-color-1);
+  color: var(--text-color-1);
 }
 
-a, a:active, a:focus {
-    outline: none;
-    text-decoration: none;
+a,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
 }
 
 img {
-    border: none;
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+  border: none;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
-ul, li {
-    padding: 0;
-    margin: 0;
+ul,
+li {
+  padding: 0;
+  margin: 0;
 }
 
 .custom-container {
-    padding: 0 32px;
-    margin: 0 auto;
+  padding: 0 32px;
+  margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Insomnia', sans-serif;
-    font-size: 86px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 104px;
-    letter-spacing: 5.16px;
-    background: linear-gradient(180deg, #6D4BE7 0%, #998BE5 90%);
-    background-clip: text;        
+  font-family: "Insomnia", sans-serif;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 5.16px;
+  background: linear-gradient(180deg, #6d4be7 0%, #998be5 90%);
+  background-clip: text;
 }
 
 h5 {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 10.8px;
-    color: var(--text-color-5);
-    text-transform: uppercase;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 10.8px;
+  color: var(--text-color-5);
+  text-transform: uppercase;
 }
 
 h6 {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 18.48px;
-    color: var(--text-color-4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 18.48px;
+  color: var(--text-color-4);
 }
-
-
-
 
 /* Phoenix */
 
 .banner-loop-phoenix .banner-left-vertical-main h6 {
-color: var(--text-color-7);
+  color: var(--text-color-7);
 }
 
 .banner-loop-phoenix .banner-content-main h5 {
-color: var(--text-color-7);
+  color: var(--text-color-7);
 }
 
 .banner-loop-phoenix .controller-box-content h5 {
-color: var(--text-color-9)
+  color: var(--text-color-9);
 }
 
 .banner-loop-phoenix .controller-box-content p {
-color: var(--text-color-10)
+  color: var(--text-color-10);
 }
 
 .banner-loop-phoenix .controller-box-section {
-border: 1px solid var(--border-color-2);
-background: linear-gradient(180deg, rgba(101, 75, 37, 0.13) 0%, rgba(246, 186, 98, 0.05) 100%);
+  border: 1px solid var(--border-color-2);
+  background: linear-gradient(
+    180deg,
+    rgba(101, 75, 37, 0.13) 0%,
+    rgba(246, 186, 98, 0.05) 100%
+  );
 }
 
 .banner-loop-phoenix .controller-icons-inner {
-border: 1px solid var(--border-color-2);
+  border: 1px solid var(--border-color-2);
 }
 
 .banner-loop-phoenix .controller-icons-inner p {
-border-top: 1px solid var(--border-color-2);
-background: linear-gradient(180deg, rgba(130, 99, 55, 0.13) 0%, rgba(221, 170, 95, 0.17) 100%);
-color: var(--text-color-10);
+  border-top: 1px solid var(--border-color-2);
+  background: linear-gradient(
+    180deg,
+    rgba(130, 99, 55, 0.13) 0%,
+    rgba(221, 170, 95, 0.17) 100%
+  );
+  color: var(--text-color-10);
 }
 
 .banner-loop-phoenix .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-phoenix .view-contract-btn-main a {
-color: var(--text-color-11);
+  color: var(--text-color-11);
 }
 
 .banner-loop-phoenix .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-12) 0%, var(--text-color-13) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-12) 0%,
+    var(--text-color-13) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-phoenix .controller-right-icons-main img {
-filter: hue-rotate(358deg);    
+  filter: hue-rotate(358deg);
 }
 
 /* Phoenix */
@@ -191,43 +204,55 @@ filter: hue-rotate(358deg);
 /* Viper */
 
 .banner-loop-viper .banner-left-vertical-main h6 {
-color: var(--text-color-14)
+  color: var(--text-color-14);
 }
 
 .banner-loop-viper .banner-content-main h5 {
-color: var(--text-color-14)
+  color: var(--text-color-14);
 }
 
 .banner-loop-viper .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-15) 0%, var(--text-color-14) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-15) 0%,
+    var(--text-color-14) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-viper .controller-box-content p {
-color: var(--text-color-14);
+  color: var(--text-color-14);
 }
 
 .banner-loop-viper .controller-box-section {
-border: 1px solid var(--text-color-14);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-14);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-viper .controller-icons-inner {
-border: 1px solid var(--text-color-16);
+  border: 1px solid var(--text-color-16);
 }
 
 .banner-loop-viper .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-14);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-14);
 }
 
 .banner-loop-viper .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-viper .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* Viper */
@@ -235,43 +260,55 @@ color: var(--text-color-17);
 /* jett */
 
 .banner-loop-jett .banner-left-vertical-main h6 {
-color: var(--text-color-18)
+  color: var(--text-color-18);
 }
 
 .banner-loop-jett .banner-content-main h5 {
-color: var(--text-color-18)
+  color: var(--text-color-18);
 }
 
 .banner-loop-jett .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-15) 0%, var(--text-color-18) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-15) 0%,
+    var(--text-color-18) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-jett .controller-box-content p {
-color: var(--text-color-18);
+  color: var(--text-color-18);
 }
 
 .banner-loop-jett .controller-box-section {
-border: 1px solid var(--text-color-18);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-18);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-jett .controller-icons-inner {
-border: 1px solid var(--text-color-20);
+  border: 1px solid var(--text-color-20);
 }
 
 .banner-loop-jett .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-18);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-18);
 }
 
 .banner-loop-jett .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-jett .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* jett */
@@ -279,43 +316,55 @@ color: var(--text-color-17);
 /* raze */
 
 .banner-loop-raze .banner-left-vertical-main h6 {
-color: var(--text-color-21)
+  color: var(--text-color-21);
 }
 
 .banner-loop-raze .banner-content-main h5 {
-color: var(--text-color-21)
+  color: var(--text-color-21);
 }
 
 .banner-loop-raze .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-42) 0%, var(--text-color-21) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-42) 0%,
+    var(--text-color-21) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-raze .controller-box-content p {
-color: var(--text-color-21);
+  color: var(--text-color-21);
 }
 
 .banner-loop-raze .controller-box-section {
-border: 1px solid var(--text-color-21);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-21);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-raze .controller-icons-inner {
-border: 1px solid var(--text-color-21);
+  border: 1px solid var(--text-color-21);
 }
 
 .banner-loop-raze .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-21);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-21);
 }
 
 .banner-loop-raze .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-raze .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* raze */
@@ -323,43 +372,55 @@ color: var(--text-color-17);
 /* breach */
 
 .banner-loop-breach .banner-left-vertical-main h6 {
-color: var(--text-color-24)
+  color: var(--text-color-24);
 }
 
 .banner-loop-breach .banner-content-main h5 {
-color: var(--text-color-24)
+  color: var(--text-color-24);
 }
 
 .banner-loop-breach .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-43) 0%, var(--text-color-24) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-43) 0%,
+    var(--text-color-24) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-breach .controller-box-content p {
-color: var(--text-color-24);
+  color: var(--text-color-24);
 }
 
 .banner-loop-breach .controller-box-section {
-border: 1px solid var(--text-color-24);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-24);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-breach .controller-icons-inner {
-border: 1px solid var(--text-color-24);
+  border: 1px solid var(--text-color-24);
 }
 
 .banner-loop-breach .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-24);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-24);
 }
 
 .banner-loop-breach .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-breach .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* breach */
@@ -367,43 +428,55 @@ color: var(--text-color-17);
 /* brimstone */
 
 .banner-loop-brimstone .banner-left-vertical-main h6 {
-color: var(--text-color-25)
+  color: var(--text-color-25);
 }
 
 .banner-loop-brimstone .banner-content-main h5 {
-color: var(--text-color-25)
+  color: var(--text-color-25);
 }
 
 .banner-loop-brimstone .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-25) 0%, var(--text-color-25) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-25) 0%,
+    var(--text-color-25) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-brimstone .controller-box-content p {
-color: var(--text-color-25);
+  color: var(--text-color-25);
 }
 
 .banner-loop-brimstone .controller-box-section {
-border: 1px solid var(--text-color-25);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-25);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-brimstone .controller-icons-inner {
-border: 1px solid var(--text-color-25);
+  border: 1px solid var(--text-color-25);
 }
 
 .banner-loop-brimstone .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-25);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-25);
 }
 
 .banner-loop-brimstone .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-brimstone .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* brimstone */
@@ -411,43 +484,55 @@ color: var(--text-color-17);
 /* sage */
 
 .banner-loop-sage .banner-left-vertical-main h6 {
-color: var(--text-color-26)
+  color: var(--text-color-26);
 }
 
 .banner-loop-sage .banner-content-main h5 {
-color: var(--text-color-26)
+  color: var(--text-color-26);
 }
 
 .banner-loop-sage .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-26) 0%, var(--text-color-26) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-26) 0%,
+    var(--text-color-26) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-sage .controller-box-content p {
-color: var(--text-color-26);
+  color: var(--text-color-26);
 }
 
 .banner-loop-sage .controller-box-section {
-border: 1px solid var(--text-color-26);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-26);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-sage .controller-icons-inner {
-border: 1px solid var(--text-color-26);
+  border: 1px solid var(--text-color-26);
 }
 
 .banner-loop-sage .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-26);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-26);
 }
 
 .banner-loop-sage .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-sage .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* sage */
@@ -455,43 +540,55 @@ color: var(--text-color-17);
 /* sova */
 
 .banner-loop-sova .banner-left-vertical-main h6 {
-color: var(--text-color-27)
+  color: var(--text-color-27);
 }
 
 .banner-loop-sova .banner-content-main h5 {
-color: var(--text-color-27)
+  color: var(--text-color-27);
 }
 
 .banner-loop-sova .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-27) 0%, var(--text-color-27) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-27) 0%,
+    var(--text-color-27) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-sova .controller-box-content p {
-color: var(--text-color-27);
+  color: var(--text-color-27);
 }
 
 .banner-loop-sova .controller-box-section {
-border: 1px solid var(--text-color-27);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-27);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-sova .controller-icons-inner {
-border: 1px solid var(--text-color-27);
+  border: 1px solid var(--text-color-27);
 }
 
 .banner-loop-sova .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-27);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-27);
 }
 
 .banner-loop-sova .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-sova .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* sova */
@@ -499,43 +596,55 @@ color: var(--text-color-17);
 /* cypher */
 
 .banner-loop-cypher .banner-left-vertical-main h6 {
-color: var(--text-color-28)
+  color: var(--text-color-28);
 }
 
 .banner-loop-cypher .banner-content-main h5 {
-color: var(--text-color-28)
+  color: var(--text-color-28);
 }
 
 .banner-loop-cypher .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-28) 0%, var(--text-color-28) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-28) 0%,
+    var(--text-color-28) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-cypher .controller-box-content p {
-color: var(--text-color-28);
+  color: var(--text-color-28);
 }
 
 .banner-loop-cypher .controller-box-section {
-border: 1px solid var(--text-color-28);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-28);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-cypher .controller-icons-inner {
-border: 1px solid var(--text-color-28);
+  border: 1px solid var(--text-color-28);
 }
 
 .banner-loop-cypher .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-28);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-28);
 }
 
 .banner-loop-cypher .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-cypher .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* cypher */
@@ -543,43 +652,55 @@ color: var(--text-color-17);
 /* reyna */
 
 .banner-loop-reyna .banner-left-vertical-main h6 {
-color: var(--text-color-29)
+  color: var(--text-color-29);
 }
 
 .banner-loop-reyna .banner-content-main h5 {
-color: var(--text-color-29)
+  color: var(--text-color-29);
 }
 
 .banner-loop-reyna .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-29) 0%, var(--text-color-29) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-29) 0%,
+    var(--text-color-29) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-reyna .controller-box-content p {
-color: var(--text-color-29);
+  color: var(--text-color-29);
 }
 
 .banner-loop-reyna .controller-box-section {
-border: 1px solid var(--text-color-29);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-29);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-reyna .controller-icons-inner {
-border: 1px solid var(--text-color-29);
+  border: 1px solid var(--text-color-29);
 }
 
 .banner-loop-reyna .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-29);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-29);
 }
 
 .banner-loop-reyna .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-reyna .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* reyna */
@@ -587,43 +708,55 @@ color: var(--text-color-17);
 /* killjoy */
 
 .banner-loop-killjoy .banner-left-vertical-main h6 {
-color: var(--text-color-30)
+  color: var(--text-color-30);
 }
 
 .banner-loop-killjoy .banner-content-main h5 {
-color: var(--text-color-30)
+  color: var(--text-color-30);
 }
 
 .banner-loop-killjoy .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-30) 0%, var(--text-color-30) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-30) 0%,
+    var(--text-color-30) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-killjoy .controller-box-content p {
-color: var(--text-color-30);
+  color: var(--text-color-30);
 }
 
 .banner-loop-killjoy .controller-box-section {
-border: 1px solid var(--text-color-30);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-30);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-killjoy .controller-icons-inner {
-border: 1px solid var(--text-color-30);
+  border: 1px solid var(--text-color-30);
 }
 
 .banner-loop-killjoy .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-30);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-30);
 }
 
 .banner-loop-killjoy .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-killjoy .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* killjoy */
@@ -631,43 +764,55 @@ color: var(--text-color-17);
 /* skye */
 
 .banner-loop-skye .banner-left-vertical-main h6 {
-color: var(--text-color-31)
+  color: var(--text-color-31);
 }
 
 .banner-loop-skye .banner-content-main h5 {
-color: var(--text-color-31)
+  color: var(--text-color-31);
 }
 
 .banner-loop-skye .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-31) 0%, var(--text-color-31) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-31) 0%,
+    var(--text-color-31) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-skye .controller-box-content p {
-color: var(--text-color-31);
+  color: var(--text-color-31);
 }
 
 .banner-loop-skye .controller-box-section {
-border: 1px solid var(--text-color-31);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-31);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-skye .controller-icons-inner {
-border: 1px solid var(--text-color-31);
+  border: 1px solid var(--text-color-31);
 }
 
 .banner-loop-skye .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-31);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-31);
 }
 
 .banner-loop-skye .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-skye .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* skye */
@@ -675,43 +820,55 @@ color: var(--text-color-17);
 /* yoru */
 
 .banner-loop-yoru .banner-left-vertical-main h6 {
-color: var(--text-color-32)
+  color: var(--text-color-32);
 }
 
 .banner-loop-yoru .banner-content-main h5 {
-color: var(--text-color-32)
+  color: var(--text-color-32);
 }
 
 .banner-loop-yoru .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-32) 0%, var(--text-color-32) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-32) 0%,
+    var(--text-color-32) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-yoru .controller-box-content p {
-color: var(--text-color-32);
+  color: var(--text-color-32);
 }
 
 .banner-loop-yoru .controller-box-section {
-border: 1px solid var(--text-color-32);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-32);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-yoru .controller-icons-inner {
-border: 1px solid var(--text-color-32);
+  border: 1px solid var(--text-color-32);
 }
 
 .banner-loop-yoru .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-32);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-32);
 }
 
 .banner-loop-yoru .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-yoru .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* yoru */
@@ -719,43 +876,55 @@ color: var(--text-color-17);
 /* astra */
 
 .banner-loop-astra .banner-left-vertical-main h6 {
-color: var(--text-color-33)
+  color: var(--text-color-33);
 }
 
 .banner-loop-astra .banner-content-main h5 {
-color: var(--text-color-33)
+  color: var(--text-color-33);
 }
 
 .banner-loop-astra .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-33) 0%, var(--text-color-33) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-33) 0%,
+    var(--text-color-33) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-astra .controller-box-content p {
-color: var(--text-color-33);
+  color: var(--text-color-33);
 }
 
 .banner-loop-astra .controller-box-section {
-border: 1px solid var(--text-color-33);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-33);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-astra .controller-icons-inner {
-border: 1px solid var(--text-color-33);
+  border: 1px solid var(--text-color-33);
 }
 
 .banner-loop-astra .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-33);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-33);
 }
 
 .banner-loop-astra .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-astra .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* astra */
@@ -763,43 +932,55 @@ color: var(--text-color-17);
 /* kayo */
 
 .banner-loop-kayo .banner-left-vertical-main h6 {
-color: var(--text-color-34)
+  color: var(--text-color-34);
 }
 
 .banner-loop-kayo .banner-content-main h5 {
-color: var(--text-color-34)
+  color: var(--text-color-34);
 }
 
 .banner-loop-kayo .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-34) 0%, var(--text-color-34) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-34) 0%,
+    var(--text-color-34) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-kayo .controller-box-content p {
-color: var(--text-color-34);
+  color: var(--text-color-34);
 }
 
 .banner-loop-kayo .controller-box-section {
-border: 1px solid var(--text-color-34);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-34);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-kayo .controller-icons-inner {
-border: 1px solid var(--text-color-34);
+  border: 1px solid var(--text-color-34);
 }
 
 .banner-loop-kayo .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-34);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-34);
 }
 
 .banner-loop-kayo .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-kayo .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* kayo */
@@ -807,43 +988,55 @@ color: var(--text-color-17);
 /* chamber */
 
 .banner-loop-chamber .banner-left-vertical-main h6 {
-color: var(--text-color-35)
+  color: var(--text-color-35);
 }
 
 .banner-loop-chamber .banner-content-main h5 {
-color: var(--text-color-35)
+  color: var(--text-color-35);
 }
 
 .banner-loop-chamber .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-35) 0%, var(--text-color-35) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-35) 0%,
+    var(--text-color-35) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-chamber .controller-box-content p {
-color: var(--text-color-35);
+  color: var(--text-color-35);
 }
 
 .banner-loop-chamber .controller-box-section {
-border: 1px solid var(--text-color-35);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-35);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-chamber .controller-icons-inner {
-border: 1px solid var(--text-color-35);
+  border: 1px solid var(--text-color-35);
 }
 
 .banner-loop-chamber .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-35);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-35);
 }
 
 .banner-loop-chamber .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-chamber .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* chamber */
@@ -851,43 +1044,55 @@ color: var(--text-color-17);
 /* neon */
 
 .banner-loop-neon .banner-left-vertical-main h6 {
-color: var(--text-color-36)
+  color: var(--text-color-36);
 }
 
 .banner-loop-neon .banner-content-main h5 {
-color: var(--text-color-36)
+  color: var(--text-color-36);
 }
 
 .banner-loop-neon .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-36) 0%, var(--text-color-36) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-36) 0%,
+    var(--text-color-36) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-neon .controller-box-content p {
-color: var(--text-color-36);
+  color: var(--text-color-36);
 }
 
 .banner-loop-neon .controller-box-section {
-border: 1px solid var(--text-color-36);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-neon .controller-icons-inner {
-border: 1px solid var(--text-color-36);
+  border: 1px solid var(--text-color-36);
 }
 
 .banner-loop-neon .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-36);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-36);
 }
 
 .banner-loop-neon .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-neon .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* neon */
@@ -895,43 +1100,55 @@ color: var(--text-color-17);
 /* fade */
 
 .banner-loop-fade .banner-left-vertical-main h6 {
-color: var(--text-color-37)
+  color: var(--text-color-37);
 }
 
 .banner-loop-fade .banner-content-main h5 {
-color: var(--text-color-37)
+  color: var(--text-color-37);
 }
 
 .banner-loop-fade .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-37) 0%, var(--text-color-37) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-37) 0%,
+    var(--text-color-37) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-fade .controller-box-content p {
-color: var(--text-color-37);
+  color: var(--text-color-37);
 }
 
 .banner-loop-fade .controller-box-section {
-border: 1px solid var(--text-color-37);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-37);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-fade .controller-icons-inner {
-border: 1px solid var(--text-color-37);
+  border: 1px solid var(--text-color-37);
 }
 
 .banner-loop-fade .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-37);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-37);
 }
 
 .banner-loop-fade .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-fade .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* fade */
@@ -939,43 +1156,55 @@ color: var(--text-color-17);
 /* harbor */
 
 .banner-loop-harbor .banner-left-vertical-main h6 {
-color: var(--text-color-38)
+  color: var(--text-color-38);
 }
 
 .banner-loop-harbor .banner-content-main h5 {
-color: var(--text-color-38)
+  color: var(--text-color-38);
 }
 
 .banner-loop-harbor .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-38) 0%, var(--text-color-38) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-38) 0%,
+    var(--text-color-38) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-harbor .controller-box-content p {
-color: var(--text-color-38);
+  color: var(--text-color-38);
 }
 
 .banner-loop-harbor .controller-box-section {
-border: 1px solid var(--text-color-38);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-38);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-harbor .controller-icons-inner {
-border: 1px solid var(--text-color-38);
+  border: 1px solid var(--text-color-38);
 }
 
 .banner-loop-harbor .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-38);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-38);
 }
 
 .banner-loop-harbor .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-harbor .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* harbor */
@@ -983,43 +1212,55 @@ color: var(--text-color-17);
 /* gekko */
 
 .banner-loop-gekko .banner-left-vertical-main h6 {
-color: var(--text-color-39)
+  color: var(--text-color-39);
 }
 
 .banner-loop-gekko .banner-content-main h5 {
-color: var(--text-color-39)
+  color: var(--text-color-39);
 }
 
 .banner-loop-gekko .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-39) 0%, var(--text-color-39) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-39) 0%,
+    var(--text-color-39) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-gekko .controller-box-content p {
-color: var(--text-color-39);
+  color: var(--text-color-39);
 }
 
 .banner-loop-gekko .controller-box-section {
-border: 1px solid var(--text-color-39);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-39);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-gekko .controller-icons-inner {
-border: 1px solid var(--text-color-39);
+  border: 1px solid var(--text-color-39);
 }
 
 .banner-loop-gekko .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-39);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-39);
 }
 
 .banner-loop-gekko .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-gekko .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* gekko */
@@ -1027,43 +1268,55 @@ color: var(--text-color-17);
 /* deadlock */
 
 .banner-loop-deadlock .banner-left-vertical-main h6 {
-color: var(--text-color-40)
+  color: var(--text-color-40);
 }
 
 .banner-loop-deadlock .banner-content-main h5 {
-color: var(--text-color-40)
+  color: var(--text-color-40);
 }
 
 .banner-loop-deadlock .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-40) 0%, var(--text-color-40) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-40) 0%,
+    var(--text-color-40) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-deadlock .controller-box-content p {
-color: var(--text-color-40);
+  color: var(--text-color-40);
 }
 
 .banner-loop-deadlock .controller-box-section {
-border: 1px solid var(--text-color-40);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-40);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-deadlock .controller-icons-inner {
-border: 1px solid var(--text-color-40);
+  border: 1px solid var(--text-color-40);
 }
 
 .banner-loop-deadlock .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-40);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-40);
 }
 
 .banner-loop-deadlock .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-deadlock .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* deadlock */
@@ -1071,43 +1324,55 @@ color: var(--text-color-17);
 /* iso */
 
 .banner-loop-iso .banner-left-vertical-main h6 {
-color: var(--text-color-41)
+  color: var(--text-color-41);
 }
 
 .banner-loop-iso .banner-content-main h5 {
-color: var(--text-color-41)
+  color: var(--text-color-41);
 }
 
 .banner-loop-iso .banner-content-main h1 {
-background: linear-gradient(180deg, var(--text-color-41) 0%, var(--text-color-41) 90%);
-background-clip: text;        
+  background: linear-gradient(
+    180deg,
+    var(--text-color-41) 0%,
+    var(--text-color-41) 90%
+  );
+  background-clip: text;
 }
 
 .banner-loop-iso .controller-box-content p {
-color: var(--text-color-41);
+  color: var(--text-color-41);
 }
 
 .banner-loop-iso .controller-box-section {
-border: 1px solid var(--text-color-41);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.05) 100%);
+  border: 1px solid var(--text-color-41);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.05) 100%
+  );
 }
 
 .banner-loop-iso .controller-icons-inner {
-border: 1px solid var(--text-color-41);
+  border: 1px solid var(--text-color-41);
 }
 
 .banner-loop-iso .controller-icons-inner p {
-border-top: 1px solid rgba(1, 171, 63, 0.00);
-background: linear-gradient(180deg, rgba(2, 157, 56, 0.08) 0%, rgba(6, 167, 61, 0.01) 100%);
-color: var(--text-color-41);
+  border-top: 1px solid rgba(1, 171, 63, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 157, 56, 0.08) 0%,
+    rgba(6, 167, 61, 0.01) 100%
+  );
+  color: var(--text-color-41);
 }
 
 .banner-loop-iso .view-contract-btn-main {
-background-image: url("../img/button-bg.svg");
+  background-image: url("../img/button-bg.svg");
 }
 
 .banner-loop-iso .view-contract-btn-main a {
-color: var(--text-color-17);
+  color: var(--text-color-17);
 }
 
 /* iso */
